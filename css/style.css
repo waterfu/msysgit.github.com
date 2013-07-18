@@ -285,3 +285,7 @@ nav li, footer li {
 .stud {
 	clear:both;
 }
+
+.use-svg {
+	display: none;
+}

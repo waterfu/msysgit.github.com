@@ -10,6 +10,9 @@
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="lightbox/css/lightbox.css">
 		<link rel="stylesheet" href="css/style.css">
+<!--[if !IE]><!-->
+		<link rel="stylesheet" href="css/use-svg.css">
+<!--<![endif]-->
 	</head>
 	<body>
 		<header>
@@ -23,8 +26,10 @@
 			</nav>
 			<section id="feature" class="content">
 				<div id="imagerollover">
-					<img src="img/gwindows_logo.png" alt="Git Logo" data-svg="true" />
-					<img class="top" src="img/git_logo.png" alt="Git Logo" data-svg="true" />
+					<img class="use-png" src="img/gwindows_logo.png" alt="Git Logo" />
+					<img class="use-svg" src="img/gwindows_logo.svg" alt="Git Logo" />
+					<img class="top use-png" src="img/git_logo.png" alt="Git Logo" />
+					<img class="top use-svg" src="img/git_logo.svg" alt="Git Logo" />
 				</div>
 				<article>
 					<div class="vcentercontainer">
@@ -71,8 +76,10 @@
 				<div id="contributecontent" class="content">
 					<div class="vcentercontainer detailsimg">
 						<div>
-							<img src="img/details_features.png" alt="BASH Drawing" data-svg="true" />
-							<img src="img/details_contribute.png" alt="msysGit Logo" data-svg="true" />
+							<img class="use-png" src="img/details_features.png" alt="BASH Drawing" />
+							<img class="use-svg" src="img/details_features.svg" alt="BASH Drawing" />
+							<img class="use-png" src="img/details_contribute.png" alt="msysGit Logo" />
+							<img class="use-svg" src="img/details_contribute.svg" alt="msysGit Logo" />
 						</div>
 					</div>
 					<div class="vcentercontainer detailstext">
@@ -103,7 +110,5 @@
 		</footer>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="lightbox/js/lightbox-2.6.min.js"></script>
-		<script src="js/modernizr.custom.09363.js"></script>
-		<script src="js/site.js"></script>
 	</body>
 </html>
